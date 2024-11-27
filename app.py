@@ -12,20 +12,20 @@ from ast import literal_eval
 
 
 
-page_bg_color = """
-<style>
-[data-testid="stAppViewContainer"] {
-    background-color: #00000; /* Light beige background */
-    color: black; /* Text color */
-}
+# page_bg_color = """
+# <style>
+# [data-testid="stAppViewContainer"] {
+#     background-color: #00011; /* Light beige background */
+#     color: black; /* Text color */
+# }
 
-[data-testid="stSidebar"] {
-    background-color: #f0f8ff; /* Light blue sidebar */
-}
-</style>
-"""
+# [data-testid="stSidebar"] {
+#     background-color: #f0f8ff; /* Light blue sidebar */
+# }
+# </style>
+# """
 
-st.markdown(page_bg_color, unsafe_allow_html=True)
+# st.markdown(page_bg_color, unsafe_allow_html=True)
 
 
 
