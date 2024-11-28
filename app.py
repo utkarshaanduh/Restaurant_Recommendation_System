@@ -121,7 +121,6 @@ import numpy as np
 import nltk
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
-from ast import literal_eval
 
 # Download required NLTK resources
 nltk.download('punkt')  # for word_tokenize
